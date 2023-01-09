@@ -1,0 +1,183 @@
+body {
+    height: auto;
+    width: auto;
+    background-color: black;
+}
+
+.video-container {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    justify-content: center;
+    display: flex;
+    z-index: 2;
+}
+
+.video-container video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    overflow: hidden;
+    z-index: 2;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+}
+
+#TITLE {
+    margin-left: 0px;
+    color: white;
+    display: flex;
+    position: absolute;
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 55px;
+}
+
+h1 {
+    z-index: 4;
+}
+
+h3 {
+    z-index: 5;
+}
+
+#TITLE:hover {
+    color: #00ff00;
+}
+
+#SUBTITLE {
+    top: 50px;
+    margin-left: 250px;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#SUBTITLE:hover {
+    color: #00ff00;
+}
+
+#LINKS {
+    list-style: none;
+    color: white;
+    display: inline-flex;
+    font-size: 25px;
+    z-index: 3;
+    font-family: 'Press Start 2P', cursive;
+    align-items: center;
+    margin-top: 500px;
+    margin-left: 100px;
+}
+
+li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    margin: 25px;
+}
+
+li a:hover {
+    color: #00ff00;
+    animation: bounce linear infinite 1s;
+    background-color: blue;
+    background-size: 5px;
+}
+
+@keyframes bounce {
+    0% {
+        padding-top: 25px;
+        padding-bottom: 0;
+    }
+    50% {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+    100% {
+        padding-top: 25px;
+        padding-bottom: 0;
+    }
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content/Box */
+
+.modal-content {
+    font-size: 50px;
+    background-color: black;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: limegreen;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'Press Start 2P', cursive;
+    background: limegreen;
+}
+
+.myBtn {
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Press Start 2P', cursive;
+    background: limegreen;
+}
+
+button:hover {
+    background: limegreen;
+}

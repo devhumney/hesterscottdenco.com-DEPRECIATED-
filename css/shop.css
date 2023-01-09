@@ -1,0 +1,2184 @@
+        body {
+            font: 0;
+            padding: 0;
+            margin: 0;
+            background-image: url("/img/TAG\ WALLPAPER.png");
+            background-size: cover;
+            background-repeat: repeat-x;
+            background-size: fit;
+            background-position: absolute;
+            font-family: 'Bebas Neue', cursive;
+        }
+        
+        footer {
+            text-align: left;
+            color: black;
+        }
+        
+        .col-5 {
+            flex-basis: 25%;
+            padding: 10px;
+            min-width: 200px;
+            margin-bottom: 50px;
+        }
+        
+        nav img {
+            width: 200px;
+            height: 200px;
+            flex-direction: row;
+        }
+        
+        .small-container {
+            flex-direction: row;
+            display: flexwrap;
+        }
+        
+        .small-container {
+            max-width: 50px;
+            margin: auto;
+            padding-left: 0px;
+            padding-right: 0px;
+            display: flexwrap;
+        }
+        
+        h1 {
+            margin-top: -25px;
+            text-align: center;
+            margin-left: auto;
+            font-size: 100px;
+            color: -webkit-animation: rainbow 1s infinite;
+            -ms-animation: rainbow 1s infinite;
+            -o-animation: rainbow 1s infinite;
+            animation: rainbow 1s infinite;
+        }
+        
+        @-webkit-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-ms-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-o-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        .description {
+            position: absolute;
+            margin-left: 25px;
+            bottom: 5px;
+            color: black;
+            background-color: #f6f6f8;
+            bottom: -235px;
+        }
+        
+        .description :hover {
+            transform: scale(105%);
+            background: linear-gradient(to right, #6666ff, #0099ff, #00ff00, #ff3399, #6666ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: rainbow_animation 6s ease-in-out infinite;
+            background-size: 400% 100%;
+        }
+        
+        @keyframes rainbow_animation {
+            0%,
+            100% {
+                background-position: 0 0;
+            }
+            50% {
+                background-position: 100% 0;
+            }
+        }
+        
+        ul li a {
+            text-decoration: none;
+            text-align: center;
+            color: -webkit-animation: rainbow 1s infinite;
+            -ms-animation: rainbow 1s infinite;
+            -o-animation: rainbow 1s infinite;
+            animation: rainbow 1s infinite;
+        }
+        
+        @-webkit-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-ms-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-o-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        ul li a :hover {
+            color: white
+        }
+        /* denim css*/
+        
+        .smallgrid-container {
+            display: flexwrap;
+            margin: auto;
+            align-items: center;
+            margin-bottom: 500px;
+            height: -10px;
+        }
+        
+        .grid-container {
+            display: flexwrap;
+            display: grid;
+            grid-gap: 300px;
+            align-items: center;
+            row-gap: 200px;
+            font-size: 25px;
+        }
+        
+        a p {
+            background-color: black;
+            position: absolute;
+        }
+        
+        .item1 a {
+            background-color: black;
+            text-decoration: none;
+            color: -webkit-animation: rainbow 1s infinite;
+            -ms-animation: rainbow 1s infinite;
+            -o-animation: rainbow 1s infinite;
+            animation: rainbow 1s infinite;
+        }
+        
+        @-webkit-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-ms-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-o-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        .item2 a {
+            background-color: black;
+            text-decoration: none;
+            color: -webkit-animation: rainbow 1s infinite;
+            -ms-animation: rainbow 1s infinite;
+            -o-animation: rainbow 1s infinite;
+            animation: rainbow 1s infinite;
+        }
+        
+        @-webkit-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-ms-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-o-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        .item3 a {
+            background-color: black;
+            text-decoration: none;
+            color: -webkit-animation: rainbow 1s infinite;
+            -ms-animation: rainbow 1s infinite;
+            -o-animation: rainbow 1s infinite;
+            animation: rainbow 1s infinite;
+        }
+        
+        @-webkit-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-ms-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-o-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        .item4 a {
+            background-color: black;
+            text-decoration: none;
+            color: -webkit-animation: rainbow 1s infinite;
+            -ms-animation: rainbow 1s infinite;
+            -o-animation: rainbow 1s infinite;
+            animation: rainbow 1s infinite;
+        }
+        
+        @-webkit-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-ms-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-o-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        .item5 a {
+            background-color: black;
+            text-decoration: none;
+            color: -webkit-animation: rainbow 1s infinite;
+            -ms-animation: rainbow 1s infinite;
+            -o-animation: rainbow 1s infinite;
+            animation: rainbow 1s infinite;
+        }
+        
+        @-webkit-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-ms-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-o-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        .item6 a {
+            background-color: black;
+            text-decoration: none;
+            color: -webkit-animation: rainbow 1s infinite;
+            -ms-animation: rainbow 1s infinite;
+            -o-animation: rainbow 1s infinite;
+            animation: rainbow 1s infinite;
+        }
+        
+        @-webkit-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-ms-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-o-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        .item7 a {
+            background-color: black;
+            text-decoration: none;
+            color: -webkit-animation: rainbow 1s infinite;
+            -ms-animation: rainbow 1s infinite;
+            -o-animation: rainbow 1s infinite;
+            animation: rainbow 1s infinite;
+        }
+        
+        @-webkit-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-ms-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-o-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        .item8 a {
+            background-color: black;
+            text-decoration: none;
+            color: -webkit-animation: rainbow 1s infinite;
+            -ms-animation: rainbow 1s infinite;
+            -o-animation: rainbow 1s infinite;
+            animation: rainbow 1s infinite;
+        }
+        
+        @-webkit-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-ms-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-o-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        .item9 a {
+            background-color: black;
+            text-decoration: none;
+            color: -webkit-animation: rainbow 1s infinite;
+            -ms-animation: rainbow 1s infinite;
+            -o-animation: rainbow 1s infinite;
+            animation: rainbow 1s infinite;
+        }
+        
+        @-webkit-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-ms-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-o-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        .item10 a {
+            background-color: black;
+            text-decoration: none;
+            color: -webkit-animation: rainbow 1s infinite;
+            -ms-animation: rainbow 1s infinite;
+            -o-animation: rainbow 1s infinite;
+            animation: rainbow 1s infinite;
+        }
+        
+        @-webkit-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-ms-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @-o-keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        @keyframes rainbow {
+            0% {
+                color: #ff0000;
+            }
+            10% {
+                color: #ff8000;
+            }
+            20% {
+                color: #ffff00;
+            }
+            30% {
+                color: #80ff00;
+            }
+            40% {
+                color: #00ff00;
+            }
+            50% {
+                color: #00ff80;
+            }
+            60% {
+                color: #00ffff;
+            }
+            70% {
+                color: #0080ff;
+            }
+            80% {
+                color: #0000ff;
+            }
+            90% {
+                color: #8000ff;
+            }
+            100% {
+                color: #ff0080;
+            }
+        }
+        
+        .item1 a :hover {
+            color: black;
+            text-decoration: underline;
+        }
+        
+        .item2 a :hover {
+            color: black;
+            text-decoration: underline;
+        }
+        
+        .item3 a :hover {
+            color: black;
+            text-decoration: underline;
+        }
+        
+        .item4 a :hover {
+            color: black;
+            text-decoration: underline;
+        }
+        
+        .item5 a :hover {
+            color: black;
+            text-decoration: underline;
+        }
+        
+        .item6 a :hover {
+            color: black;
+            text-decoration: underline;
+        }
+        
+        .item7 a :hover {
+            color: black;
+            text-decoration: underline;
+        }
+        
+        .item8 a :hover {
+            color: black;
+            text-decoration: underline;
+        }
+        
+        .item9 a :hover {
+            color: black;
+            text-decoration: underline;
+        }
+        
+        .item10 a :hover {
+            color: black;
+            text-decoration: underline;
+        }
+        
+        .item1 {
+            margin-left: 50px;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        
+        .item2 {
+            margin-left: 350px;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        
+        .item3 {
+            margin-left: 100px;
+            grid-column-start: 3;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        
+        .item4 {
+            margin-left: 50px;
+            margin-top: 500px;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        
+        .item5 {
+            margin-left: 350px;
+            margin-top: 500px;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        
+        .item6 {
+            margin-left: 100px;
+            margin-top: 500px;
+            grid-column-start: 3;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        
+        .item7 {
+            margin-left: 50px;
+            margin-top: 150px;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 3;
+        }
+        
+        .item8 {
+            margin-left: 350px;
+            margin-top: 150px;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 3;
+        }
+        
+        .item9 {
+            margin-left: 100px;
+            margin-top: 150px;
+            grid-column-start: 3;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 3;
+        }
+        /* 
+        .item10 {
+            margin-left: 50px;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 4;
+            grid-row-end: 3;
+        }
+     
+        .item11 {
+            margin-left: 200px;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 4;
+            grid-row-end: 3;
+        }
+        
+        .item12 {
+            grid-column-start: 3;
+            grid-column-end: 3;
+            grid-row-start: 4;
+            grid-row-end: 3;
+        }
+        
+        .item13 {
+            margin-left: 50px;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 5;
+            grid-row-end: 3;
+        }
+        
+        .item14 {
+            margin-top: 500px;
+            margin-left: 400px;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 5;
+            grid-row-end: 3;
+        }
+        
+        .item15 {
+            grid-column-start: 3;
+            grid-column-end: 3;
+            grid-row-start: 5;
+            grid-row-end: 3;
+        }
+        /* denim page specific css*/
+        
+        .denim1 {
+            margin-left: 50px;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        
+        .denim2 {
+            margin-left: 400px;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        
+        .smaller-container {
+            grid-gap: 50px 50px;
+            display: inline-grid;
+        }
+        
+        .smaller-container {
+            margin-left: 200px;
+            max-width: 200px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        /* Purchase Page Coding*/
+        
+        .price-container {
+            background-position: inherit;
+            background-size: 0px;
+            background-color: #f6f6f8;
+            position: absolute;
+            left: 950px;
+            bottom: -200px;
+            font-size: 25px;
+            color: black;
+        }
+        
+        .footer {
+            position: absolute;
+            bottom: -400px;
+            left: 500px;
+        }
+        /* IMAGE HOVER ZOOM*/
+        /* [2] Transition property for smooth transformation of images */
+        
+        .img-hover-zoom img {
+            transition: transform .5s ease;
+        }
+        /* [3] Finally, transforming the image when container gets hovered */
+        
+        .img-hover-zoom:hover img {
+            transform: scale(2);
+        }
+        /* Side Panel CSS*/
+        
+        @media only screen and (min-width: 768px) {}
+        
+        .fadein {
+            position: relative;
+            height: 332px;
+            width: 500px;
+        }
+        
+        .fadein img {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }

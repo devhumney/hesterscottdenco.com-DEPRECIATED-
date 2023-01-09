@@ -1,0 +1,104 @@
+body {
+    height: auto;
+    width: auto;
+    background-color: black;
+}
+
+.video-container {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    justify-content: center;
+    display: flex;
+    z-index: 2;
+}
+
+.video-container video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    overflow: hidden;
+    z-index: 2;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+}
+
+h1 {
+    z-index: 4;
+}
+
+h3 {
+    z-index: 5;
+}
+
+#TITLE {
+    margin-left: 200px;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#TITLE:hover {
+    color: #00ff00;
+}
+
+#SUBTITLE {
+    top: 50px;
+    margin-left: 450px;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#SUBTITLE:hover {
+    color: #00ff00;
+}
+
+#LINKS {
+    list-style: none;
+    color: white;
+    display: flex;
+    font-size: 25px;
+    z-index: 3;
+    font-family: 'Press Start 2P', cursive;
+    align-items: center;
+    margin-top: 500px;
+    margin-left: 50px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    margin: 25px;
+}
+
+li a:hover {
+    color: #00ff00;
+    animation: bounce linear infinite 1s;
+    background-color: blue;
+    background-size: 5px;
+}
+
+@keyframes bounce {
+    0% {
+        padding-top: 25px;
+        padding-bottom: 0;
+    }
+    50% {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+    100% {
+        padding-top: 25px;
+        padding-bottom: 0;
+    }
+}
